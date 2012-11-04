@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RemoteControllerActivity!</string>
+    <string name="app_name">RemoteController</string>
+    <string name="connect_button_text">Connect</string>
+    <string name="host_port">host:port</string>
+    <string name="send_cmd_string">Send</string>
+    <string name="empty"></string>
+    <string name="connect_button_connected_text">Disconnect (Connected)</string>
+    <string name="unknown_host_error_message">Unknown Host</string>
+    <string name="improper_host_port_text">Please specify the host and the port with the following syntax:\nhost:port</string>
+    <string name="socket_exception_text">Connection refused. Is any process listening on the specified host and port side?</string>
+    <string-array name="special_commands">
+        
+        <item>followline \&quot;bm\&quot;</item><item>drive</item><item>resetmotors</item><item >idle</item>
+        <item>stop</item>
+        
+        
+    </string-array>
+    <string name="disconnected_text">The server seems to have disconnected</string>
+
+</resources>
